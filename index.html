@@ -1,0 +1,66 @@
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <Title>✊🖐️✌️</Title>
+        <link rel="stylesheet" href="rps.css">
+        
+    </head>
+    <body>
+        <center>
+        <div id="rulet">
+ <div id="rules">
+<ins class="ruleh">Rules</ins><div class="x"onclick="clos()">×</div><p>
+<div class="mainr">
+    Rock-paper-scissors is a simple hand game usually played by two people. The rules of the game are as follows:<p>
+
+1. Each player chooses one of three options: rock, paper, or scissors.<p>
+
+2. Rock beats scissors, because a rock can break a pair of scissors.<p>
+
+3. Scissors beats paper, because scissors can cut paper.<p>
+
+4. Paper beats rock, because a piece of paper can cover a rock.<p>
+
+5. If both players choose the same option, it is a tie and the game is replayed.<p>
+
+In short, rock beats scissors, scissors beats paper, and paper beats rock. It's a game of chance, so there's no guaranteed way to win, but a player can try to guess what the other player will choose and choose the option that beats it.
+</div>
+<div class="clos"onclick="clos()">CLOSE</div>
+ </div>
+ </div>
+ </center>
+  <div id="body1">
+        <div class="head"> 
+  <div class="scr">Score<br><input type="text" class="scor"id="score"value="0"></div>
+<div class="roc"> Rock<br>
+Paper<br>scissors</div>
+            </div>
+<input type="checkbox"id="rad"checked="checked"class="none">
+     <center><div class="main">
+ <div for="rpaper" class="paper "id="paper"onclick="switc();pape()">🖐️
+ </div>
+ <!--<input type="radio"name="pick"id="rpaper"> -->
+     <div class="rock "id="rock"onclick="switc();roc()"for="rrock">✊   
+ </div>
+ <!--<input type="radio"name="pick"id="rrock"> -->
+<div class="scissors "id="scissors"onclick="switc();sci ()"for="rscissors">✌️
+ </div>
+<!-- <input type="radio"name="pick"id="rscissors">  -->
+     </div></center>
+    <center>
+        <div id="text"class="none">
+   <div class="te">YOU PICKED</div>
+   <div class="tex">THE HOUSE PICKED</div>
+   </div>
+   </center>
+     <center><div class="triangle"id="tri"><div class="triangler"></div></div></center>
+    <center> <div id="text1"class="none">
+     <div class="text ">YOU <span id="win">WIN </span></div><p></p>
+     <div class="play"onclick="home()">PLAY AGAIN </div>
+     </div>
+    <center><div id="rule" class="rule"onclick="rul()">Rules</div></center>
+    </div>
+    <script src="rps.js"></script>
+    </body>
+</HTML>
